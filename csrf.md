@@ -245,14 +245,14 @@ Kemudian teman Anda akses:
 http://192.168.68.169:8080/login.php
 ```
 
-Opsi 2: Pakai XAMPP / Laragon
-1.Copy folder ke htdocs (XAMPP) atau www (Laragon)
-2.Akses:
+### Opsi 2: Pakai XAMPP / Laragon
+### 1.Copy folder ke htdocs (XAMPP) atau www (Laragon)
+### 2.Akses:
 ```bash
 http://localhost/phishing/login.php
 ```
-3.Untuk IP lokal, pastikan firewall mengizinkan port 80/8080
-4.akses:
+### 3.Untuk IP lokal, pastikan firewall mengizinkan port 80/8080
+### 4.akses:
 ```bash
 http://192.168.68.169/phishing/login.php
 ```
