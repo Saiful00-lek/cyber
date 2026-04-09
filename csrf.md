@@ -236,7 +236,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ### Cara menjalankan di IP Lokal
 Opsi 1: Pakai PHP bawaan (termudah)
 bash
-# Buka terminal di folder tempat file disimpan
+### Buka terminal di folder tempat file disimpan
 ```bash
 php -S 0.0.0.0:8080
 ```
@@ -247,6 +247,12 @@ http://192.168.68.169:8080/login.php
 
 Opsi 2: Pakai XAMPP / Laragon
 1.Copy folder ke htdocs (XAMPP) atau www (Laragon)
-2.Akses: http://localhost/nama_folder/login.php
+2.Akses:
+```bash
+http://localhost/phishing/login.php
+```
 3.Untuk IP lokal, pastikan firewall mengizinkan port 80/8080
-4.Teman akses: http://192.168.68.169/phishing/login.php
+4.akses:
+```bash
+http://192.168.68.169/phishing/login.php
+```
