@@ -1,0 +1,1 @@
+## buka firefox kali linux, ke setting cari netwok settings lalu setting. ubah ke "manual proxy configurations" tujuannya adalah memungkinkan kita mengarahkan semua lalu lintas internet browser melalui proxy server terlebih dahulu, bukan langsung ke website tujuan
