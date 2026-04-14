@@ -37,5 +37,5 @@ Baca file sistem
 ### | (pipe)	                                  Kirim output perintah pertama ke perintah kedua        	127.0.0.1 | whoami
 ### || (OR)	                                    Jalankan perintah kedua jika perintah pertama GAGAL	    127.0.0.1 || whoami
 ### & (background)	                            Jalankan perintah kedua di background	                  127.0.0.1 & whoami
-### $()	                                         Command substitution	                                  127.0.0.1 $(whoami)
-### `cmd` (backtick)	                           Command substitution	                                  127.0.0.1 \whoami``
+###    $()	                                         Command substitution	                                  127.0.0.1 $(whoami)
+###   `cmd` (backtick)	                           Command substitution	                                  127.0.0.1 \whoami``
