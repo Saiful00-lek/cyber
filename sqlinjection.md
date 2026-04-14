@@ -1,6 +1,6 @@
 ## login bypass
 teknik masuk ke akun orang lain tanpa tahu password
-Cara Kerja:
+### Cara Kerja:
 Query login asli:
 SELECT * FROM users WHERE username = 'admin' AND password = '12345'
 Kita ubah input menjadi:
