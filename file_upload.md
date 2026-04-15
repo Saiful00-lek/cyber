@@ -39,10 +39,8 @@ systeminfo
 ```	
 
 ## bypass validasi file
-## ketika file tidak berhasil di upload, ke browser devtools > debugger > klik icon settings > lalu disable javascript.
-## tangkap request dengan burp
-## dibawah, dibagian content type ganti dengan image/jpeg
-## Content-Disposition: form-data; name="uploaded"; filename="shell.php"
+## bisa diubah format file nya langsung menjadi 'shell.php.jpg' agar bisa diupload
+## bisa juga dengan burpsuite, tangkap request kirim ke repeater. 
+## ubah jadi begini 'Content-Disposition: form-data; name="uploaded"; filename="shell.php.jpg"'
 ## Content-Type: image/jpeg
-## lalu send, lihat di response akan tertulis seperti ini 'C:\laragon\www\dvwa\hackable\uploads\shell.php succesfully uploaded!'
-## eksekusi dengan perintah diatas
+## lalu eksekusi dengan perintah diatas
